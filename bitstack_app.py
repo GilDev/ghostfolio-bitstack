@@ -52,6 +52,6 @@ x = requests.post(cfg['ghostfolio']['server_url'] + '/api/v1/import',
          "Authorization" : "Bearer " + cfg['ghostfolio']['auth_bearer'],
          "Content-Type" : "application/json"
          },
-     verify=cfg['ghostfolio']['ssl_self_cert'],
+     #verify=cfg['ghostfolio']['ssl_self_cert'],
      timeout=30)
 print(x.text)
