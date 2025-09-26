@@ -8,5 +8,5 @@ currency = EUR
 data_source = YAHOO
 symbol = BTC-EUR
 server_url = https://hostname.domain
+# To obtain auth_bearer: https://gethomepage.dev/widgets/services/ghostfolio/
 auth_bearer = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-ssl_self_cert = /etc/ssl/certs/ca-certificates.crt
