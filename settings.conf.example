@@ -4,9 +4,9 @@ dst_timezone = Europe/Paris
 
 [ghostfolio]
 account_id = xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
-currency = USD
+currency = EUR
 data_source = YAHOO
-symbol = BTCUSD
+symbol = BTC-EUR
 server_url = https://hostname.domain
 auth_bearer = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ssl_self_cert = /etc/ssl/certs/ca-certificates.crt

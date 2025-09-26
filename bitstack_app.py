@@ -38,11 +38,11 @@ with open(transactions_file, "r", encoding="utf-8") as csv_file:
             "currency": cfg['ghostfolio']['currency'],
             "dataSource": cfg['ghostfolio']['data_source'],
             "date": convert_gmt_to_local(row[1]),
-            "fee": convert_eur_usd(row[7], row[1]),
+            "fee": float(row[7]),
             "quantity": float(row[3]),
             "symbol": cfg['ghostfolio']['symbol'],
             "type": "BUY", #We don't sell, HODL
-            "unitPrice": float(convert_eur_usd(row[11], row[1]))
+            "unitPrice": float(row[11])
         }
         data['activities'].append(line)
 print(json.dumps(data, indent=2))
